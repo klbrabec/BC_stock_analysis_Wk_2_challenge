@@ -19,13 +19,13 @@ access information regarding individual tickers.  Because of this design, the co
 loop, would process through each row in the data set, increasing the total volume by the daily volume, and doing a comparision of the 
 row before and after to determine if it was the first or last row in the set to set the starting price and ending price values.  
 
-INSERT CODE SNIPPET ONE
+![VBA_Challenge_CodeSnippet1.png](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_CodeSnippet1.PNG)
 
 While this works, it is not efficient for larger data sets.  The process of refactoring kept the logic in place, but implemented 
 arrays, which will allow for accessing data related to a specific ticker, rather than having to loop through multiple values to find 
 values needed.  This limits the processing overhead and improves the performance of the code itself. 
 
-INSERT CODE SNIPPET TWO   
+![VBA_Challenge_CodeSnippet2.png](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_CodeSnippet2.PNG) 
 
  
 ### Results  
@@ -34,18 +34,18 @@ The results returned for the pre-refactoring and post-refactoring of the code ar
 in comparision of the performance or completion of the macro  after the refactoring compared to the results prior to the refactoring.  
 for the 2017 data set, the results can be seen here: 
 
-INSERT BEFORE REFACTORING 2017 HERE
+![VBA_Challenge_2017_BeforeRefactor.PNG](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_2017_BeforeRefactor.PNG)
 As you can see in this image, the code completed on the 2017 data set within 4.96 seconds prior to being refactored. 
-INSERT AFTER REFACTORING 2017 Here 
+![VBA_Challenge_2017_AfterRefactor.PNG](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_2017_AfterRefactor.PNG)
+
 After the code was refactored, the code completed on the 2017 data set within 0.15625 seconds. This is an approximately 96.8% reduction in 
-cycle time for the same data set.  Note, the completion of a macro/sub routine 
-can be impacted by a number of different factors, however the magnitude of the improvement should be fairly similar
+cycle time for the same data set.  Note, the completion of a macro/sub routine can be impacted by a number of different factors, however the magnitude of the improvement should be fairly similar
  
 The results for the 2018 data set are similar. 
 
-INSERT Before refactoring 2018 Here
+![VBA_Challenge_2018_BeforeRefactor.PNG](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_2018_BeforeRefactor.PNG)
 Results for 2018 were returned in 4.207031 seconds.  
-Insert After Refactoring 2018 here 
+![VBA_Challenge_2018_AfterRefactor.PNG](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_2018__AfterRefactor.PNG)
 After refactoring, those same results were returned in  0.1328125 seconds.  Again, this was a 96.8% reduction in the time 
 it took to process and return results.  
 
