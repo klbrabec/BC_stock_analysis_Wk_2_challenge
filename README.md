@@ -45,7 +45,7 @@ The results for the 2018 data set are similar.
 
 ![VBA_Challenge_2018_BeforeRefactor.PNG](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_2018_BeforeRefactor.PNG)
 Results for 2018 were returned in 4.207031 seconds.  
-![VBA_Challenge_2018_AfterRefactor.PNG](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_2018__AfterRefactor.PNG)
+![VBA_Challenge_2018_AfterRefactor.PNG](https://github.com/klbrabec/stock_analysis/blob/main/VBA_Challenge_2018_AfterRefactor.PNG)
 After refactoring, those same results were returned in  0.1328125 seconds.  Again, this was a 96.8% reduction in the time 
 it took to process and return results.  
 
