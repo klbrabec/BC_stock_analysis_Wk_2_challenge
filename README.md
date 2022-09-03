@@ -7,7 +7,7 @@
 There are two requirements for this project.   The first is to validate that the code developed for the initial dataset analysis
 works as expected for a larger data set, and provides the same information.  The second requirement is to ensure that the code 
 performs well, and returns results as fast, or faster than it did prior to being refactored.    This is not new code development, 
-it relies on work done previously that has been verified.  However, this code has been reviewed and refactored in order to make 
+it relies on work done previously that has been verified.  However, this code has been reviewed and refactored in order to be 
 more efficient.  
 
 ## Results
@@ -56,7 +56,7 @@ Being able to enhance the performance of a macro will allow for it to be used fo
 As shown in the images above, the code performed the same tasks as they processed through the For loops.  The results for 
 the original and refactored code are the same.  
 
-##Summary
+## Summary
 Refactoring of code is a common activity in software development.  Developers refer to pre-existing code in order to deliver 
 faster, and work more efficiently. Additionally, refactoring of code will allow for the re-use of complex logic rather than 
 having to 'reinvent the wheel'.  It is important however, to ensure that any code that is being refactored is fully understood 
